@@ -5095,10 +5095,10 @@ L_35_.Info:Button("Listen to Lofi Music", function()
 end)
 
 --- hola si que vuelva flux
-
-L_35.Isa:Button("Dale aqui lil bro"), function()
+L_35_.Isa:Label("Infa")
+L_35.Isa:Button("Dale aqui lil bro", function()
 	setclipboard("https://www.youtube.com/@yresc")
-end
+end)
 
 task.delay(2, function()
 	if hookfunction and not islclosure(hookfunction) then
